@@ -1,0 +1,13 @@
+/*
+header, main, footer,section, div, h1, h2, h3, span, a, img, p, ul, li, blockquote {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+*/
+
+.page {
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #ffffff;
+  padding: 28px 48px 24px 48px;
+}
