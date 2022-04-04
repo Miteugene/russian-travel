@@ -1,10 +1,9 @@
-.lead__image {
+.cover__image {
   display: block;
   width: 100%;
 
   object-fit: cover;
   margin: 0;
   padding: 0;
-
-  padding-top: 64px;
 }
+

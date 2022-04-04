@@ -5,5 +5,18 @@
 
   max-width: 984px;
   margin: 0 auto;
-  padding-top: 92px;
+
+  padding: 92px 48px 0 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    padding: 88px 24px 0 24px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding: 64px 16px 0 16px;
+  }
+} 

@@ -1,22 +1,9 @@
 .cover {
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-top: 92px;
-  
-  text-align: center;
-
-  background-image: url(../../images/cover.jpg);
-  background-position: center;
-  background-size: cover;
-
-  padding: 245px 48px 245px;
-
   position: relative;
+  margin: 0 auto;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  margin-top: 92px;
+  padding: 0 48px 0 48px;
 }
 
 .cover::before {
@@ -30,6 +17,8 @@
   right: 0;
   bottom: 0;
   z-index: 1;
+
+  transition: opacity 1s;
 }
 
 .cover:hover:before {
@@ -44,3 +33,23 @@
   bottom: 0;
   z-index: 1;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    padding: 0;
+  }
+} 
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin-top: 90px;
+    padding: 0;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 66px;
+    padding: 0;
+  }
+} 
