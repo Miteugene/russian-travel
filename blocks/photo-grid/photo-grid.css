@@ -3,6 +3,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fit, 284px);
+  grid-template-rows: repeat(auto-fit, 213px);
   justify-content: center;
   gap: 16px;
 
@@ -16,6 +17,7 @@
 @media screen and (max-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 225px);
     gap: 14px;
 
     padding: 92px 48px 0 48px;
@@ -25,6 +27,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 352px);
+    grid-template-rows: repeat(auto-fit, 264px);
     gap: 16px;
 
     padding: 88px 24px 0 24px;
@@ -34,6 +37,7 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-rows: repeat(auto-fit, 216px);
     gap: 16px;
 
     padding: 64px 16px 0 16px;
