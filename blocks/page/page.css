@@ -1,5 +1,5 @@
 /*
-header, main, footer,section, div, h1, h2, h3, span, a, img, p, ul, li, blockquote {
+* {
   border: 1px solid red;
   box-sizing: border-box;
 }
