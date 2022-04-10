@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
 
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -19,5 +17,11 @@
     line-height: 20px;
 
     width: 288px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin-top: 16px;
   }
 } 

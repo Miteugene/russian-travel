@@ -5,3 +5,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .header__logo-image {
+    max-width: 142px;
+    max-height: 42px;
+  }
+}
