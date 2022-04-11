@@ -5,7 +5,7 @@
   
   max-width: 1184px;
 
-  background: url(../../../images/cover.jpg) center center / cover;
+  background: url(../../images/cover.jpg) center center / cover;
 }
 
 @media screen and (max-width: 1024px) {
