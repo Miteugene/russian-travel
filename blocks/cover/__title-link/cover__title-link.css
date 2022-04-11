@@ -1,6 +1,39 @@
 .cover__title-link {
+  margin: 0;
+  padding: 245px 0;
+
   display: block;
   text-decoration: none;
   color: #ffffff;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: rgba(42, 44, 47, 0.3);
+  transition: background 1s;
 }
 
+.cover__title-link:hover {
+  background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__title-link {
+    padding: 195px 0;
+  }
+} 
+
+@media screen and (max-width: 1024px) {
+  .cover__title-link {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title-link {
+    padding: 33px 0;
+  }
+} 
